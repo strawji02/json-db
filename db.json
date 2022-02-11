@@ -316,5 +316,6 @@
         "includedDrinks": [3]
       }
     ]
-  }
+  },
+  "image": "./image.jpg"
 }
