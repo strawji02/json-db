@@ -220,6 +220,11 @@
         "id": 3,
         "name": "데낄라",
         "includedDrinks": [2, 4]
+      },
+      {
+        "id": 4,
+        "name": "위스키",
+        "includedDrinks": []
       }
     ],
 
@@ -236,7 +241,7 @@
       },
       {
         "id": 2,
-        "name": "트리플섹",
+        "name": "오렌지 큐라소",
         "includedDrinks": [2, 3, 4, 9]
       },
       {
