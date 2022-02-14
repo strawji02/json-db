@@ -16,76 +16,135 @@
       "id": 0,
       "cocktailName": "에스프레소 마티니",
       "ingredient": [
-        { "id": 0, "ingredientType": 0 },
-        { "id": 0, "ingredientType": 1 },
-        { "id": 0, "ingredientType": 2 },
-        { "id": 0, "ingredientType": 3 }
+        {
+          "id": 0,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1과 2/3 oz",
+          "ingredientAmountML": "50ml"
+        },
+        {
+          "id": 0,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1 oz",
+          "ingredientAmountML": "30ml"
+        },
+        {
+          "id": 0,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1 oz",
+          "ingredientAmountML": "30ml"
+        },
+        {
+          "id": 10,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1/3 oz",
+          "ingredientAmountML": "10ml"
+        },
+        {
+          "id": 0,
+          "ingredientType": "other",
+          "ingredientAmountOZ": "3개",
+          "ingredientAmountML": "3개"
+        }
       ],
-      "ingredientAmountOZ": ["1과 1/3온스", "2/3온스", "2/3온스", "3개"],
-      "ingredientAmountML": ["40ml", "20ml", "20ml", "3개"],
       "mixing": "쉐이커에 얼음을 채운다. 커피콩을 제외한 모든 재료를 넣고 쉐이킹을 한다. 스트레이너를 사용하여 칵테일 글래스에 따른다. 커피 콩으로 장식한다."
     },
     {
       "id": 1,
       "cocktailName": "섹스 온 더 비치",
       "ingredient": [
-        { "id": 0, "ingredientType": 0 },
-        { "id": 1, "ingredientType": 2 },
-        { "id": 2, "ingredientType": 2 },
-        { "id": 1, "ingredientType": 1 },
-        { "id": 1, "ingredientType": 3 },
-        { "id": 2, "ingredientType": 3 }
+        {
+          "id": 0,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1과 1/3 oz",
+          "ingredientAmountML": "40ml"
+        },
+        {
+          "id": 1,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "2/3 oz",
+          "ingredientAmountML": "20ml"
+        },
+        {
+          "id": 2,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1과 1/3 oz",
+          "ingredientAmountML": "40ml"
+        },
+        {
+          "id": 3,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1과 1/3 oz",
+          "ingredientAmountML": "40ml"
+        },
+        {
+          "id": 1,
+          "ingredientType": "other",
+          "ingredientAmountOZ": "1조각",
+          "ingredientAmountML": "슬라이스"
+        },
+        {
+          "id": 2,
+          "ingredientType": "other",
+          "ingredientAmountOZ": "1개",
+          "ingredientAmountML": ""
+        }
       ],
-      "ingredientAmountOZ": [
-        "3/4온스",
-        "3과 1/3온스",
-        "3과 1/3온스",
-        "3/4온스",
-        "1슬라이스",
-        "1개"
-      ],
-      "ingredientAmountML": [
-        "20ml",
-        "100ml",
-        "100ml",
-        "20ml",
-        "1슬라이스",
-        "1개"
-      ],
+
       "mixing": "하이볼 글래스에 얼음을 채운다. 모든 재료를 빌드한다. 라임과 체리로 장식한다."
     },
     {
       "id": 2,
       "cocktailName": "롱 아일랜드 아이스 티",
       "ingredient": [
-        { "id": 0, "ingredientType": 0 },
-        { "id": 1, "ingredientType": 0 },
-        { "id": 2, "ingredientType": 0 },
-        { "id": 3, "ingredientType": 0 },
-        { "id": 2, "ingredientType": 1 },
-        { "id": 3, "ingredientType": 2 },
-        { "id": 4, "ingredientType": 2 },
-        { "id": 1, "ingredientType": 3 }
-      ],
-      "ingredientAmountOZ": [
-        "2/3온스",
-        "2/3온스",
-        "2/3온스",
-        "2/3온스",
-        "2/3온스",
-        "1과 1/3온스",
-        "2/3온스",
-        "1슬라이스"
-      ],
-      "ingredientAmountML": [
-        "20ml",
-        "20ml",
-        "20ml",
-        "20ml",
-        "20ml",
-        "40ml",
-        "20ml",
-        "1슬라이스"
+        {
+          "id": 2,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 0,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 1,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 3,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 2,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "l5ml"
+        },
+        {
+          "id": 3,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1 oz",
+          "ingredientAmountML": "30ml"
+        },
+        {
+          "id": 4,
+          "ingredientType": "other",
+          "ingredientAmountOZ": "2/3 oz",
+          "ingredientAmountML": "20ml"
+        },
+        {
+          "id": 4,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "Full up",
+          "ingredientAmountML": "잔에 채우기"
+        }
       ],
       "mixing": "하이볼 글래스에 얼음을 채운다. 모든 재료를 넣고 빌드한다. 라임으로 장식한다."
     },
@@ -93,25 +152,30 @@
       "id": 3,
       "cocktailName": "코스모폴리탄",
       "ingredient": [
-        { "id": 0, "ingredientType": 0 },
-        { "id": 2, "ingredientType": 1 },
-        { "id": 2, "ingredientType": 2 },
-        { "id": 5, "ingredientType": 2 },
-        { "id": 3, "ingredientType": 3 }
-      ],
-      "ingredientAmountOZ": [
-        "1과 1/3온스",
-        "2/3온스",
-        "2/3온스",
-        "2/3온스",
-        "1트위스트 슬라이스"
-      ],
-      "ingredientAmountML": [
-        "40ml",
-        "20ml",
-        "20ml",
-        "20ml",
-        "1트위스트 슬라이스"
+        {
+          "id": 0,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1 oz",
+          "ingredientAmountML": "30ml"
+        },
+        {
+          "id": 2,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 5,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 2,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        }
       ],
       "mixing": "쉐이커에 얼음을 채운다. 오렌지 필을 제외한 모든 재료를 넣고 쉐이킹을 한다. 스트레이너를 사용하여 칵테일 글래스에 따른다. 오렌지 필로 장식한다."
     },
@@ -119,83 +183,262 @@
       "id": 4,
       "cocktailName": "마가리타",
       "ingredient": [
-        { "id": 3, "ingredientType": 0 },
-        { "id": 2, "ingredientType": 1 },
-        { "id": 5, "ingredientType": 2 }
+        {
+          "id": 3,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1과 1/2 oz",
+          "ingredientAmountML": "45ml"
+        },
+        {
+          "id": 2,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 5,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        }
       ],
-      "ingredientAmountOZ": ["1온스", "1/2온스", "1/2온스"],
-      "ingredientAmountML": ["30ml", "15ml", "15ml"],
-      "mixing": " 쉐이커에 얼음을 채운다. 모든 재료를 넣고 쉐이킹을 한다. 칠링한 칵테일 글래스에 따른다. 잔 주변을 소금으로 리밍한다."
+      "mixing": " 잔 주변을 소금으로 리밍한다. 쉐이커에 얼음을 채운다. 모든 재료를 넣고 쉐이킹을 한다. 칠링한 칵테일 글래스에 따른다. "
     },
     {
       "id": 5,
       "cocktailName": "다이키리",
       "ingredient": [
-        { "id": 1, "ingredientType": 0 },
-        { "id": 5, "ingredientType": 2 },
-        { "id": 6, "ingredientType": 2 },
-        { "id": 1, "ingredientType": 3 }
+        {
+          "id": 1,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "2 oz",
+          "ingredientAmountML": "60ml"
+        },
+        {
+          "id": 5,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "2/3 oz",
+          "ingredientAmountML": "20ml"
+        },
+        {
+          "id": 6,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "3/4 oz",
+          "ingredientAmountML": "25ml"
+        },
+        {
+          "id": 1,
+          "ingredientType": "other",
+          "ingredientAmountOZ": "1 슬라이스",
+          "ingredientAmountML": "1 슬라이스"
+        }
       ],
-      "ingredientAmountOZ": ["1과 1/2온스", "1온스", "3/4온스", "1슬라이스"],
-      "ingredientAmountML": ["45ml", "30ml", "25ml", "1슬라이스"],
       "mixing": "쉐이커에 얼음을 채운다. 라임을 제외한 모든 재료를 넣고 쉐이킹을 한다. 스트레이너를 사용하여 칵테일 글래스에 따른다. 라임으로 장식한다."
     },
     {
       "id": 6,
       "cocktailName": "블러싱 러시안",
       "ingredient": [
-        { "id": 0, "ingredientType": 0 },
-        { "id": 7, "ingredientType": 2 },
-        { "id": 0, "ingredientType": 1 },
-        { "id": 8, "ingredientType": 2 },
-        { "id": 3, "ingredientType": 1 }
+        {
+          "id": 0,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 7,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 0,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 8,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 3,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        }
       ],
-      "ingredientAmountOZ": [
-        "1/2온스",
-        "1/2온스",
-        "1/2온스",
-        "1/2온스",
-        "1/2온스"
-      ],
-      "ingredientAmountML": ["15ml", "15ml", "15ml", "15ml", "15ml"],
       "mixing": "쉐이커에 얼음을 채운다. 모든 재료를 넣고 쉐이킹을 한다. 스트레이너를 사용하여 칵테일 글래스에 따른다."
     },
     {
       "id": 7,
       "cocktailName": "블랙 러시안",
       "ingredient": [
-        { "id": 0, "ingredientType": 0 },
-        { "id": 0, "ingredientType": 1 },
-        { "id": 2, "ingredientType": 3 }
+        {
+          "id": 0,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1 oz",
+          "ingredientAmountML": "30ml"
+        },
+        {
+          "id": 0,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 2,
+          "ingredientType": "other",
+          "ingredientAmountOZ": "1개",
+          "ingredientAmountML": "1개"
+        }
       ],
-      "ingredientAmountOZ": ["1온스", "1/2온스", "1개"],
-      "ingredientAmountML": ["30ml", "15ml", "1개"],
       "mixing": "온더락 글라스에 얼음을 채운다. 모든 재료를 넣고 빌드한다. 체리로 장식한다."
     },
     {
       "id": 8,
       "cocktailName": "화이트 러시안",
       "ingredient": [
-        { "id": 0, "ingredientType": 0 },
-        { "id": 0, "ingredientType": 1 },
-        { "id": 7, "ingredientType": 2 }
+        {
+          "id": 0,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1과 1/2 oz",
+          "ingredientAmountML": "45ml"
+        },
+        {
+          "id": 0,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 8,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1 oz",
+          "ingredientAmountML": "30ml"
+        }
       ],
-      "ingredientAmountOZ": ["1과 1/2온스", "1/2온스", "1온스"],
-      "ingredientAmountML": ["45ml", "15ml", "30ml"],
       "mixing": "락 글라스에 얼음을 채운다. 기호에 따라 거품을 낸 크림을 포함해 모든 재료를 넣고 빌드한다."
     },
     {
       "id": 9,
       "cocktailName": "카미카제",
       "ingredient": [
-        { "id": 0, "ingredientType": 0 },
-        { "id": 2, "ingredientType": 1 },
-        { "id": 3, "ingredientType": 2 },
-        { "id": 1, "ingredientType": 3 }
+        {
+          "id": 0,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1 oz",
+          "ingredientAmountML": "30ml"
+        },
+        {
+          "id": 2,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 3,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 1,
+          "ingredientType": "other",
+          "ingredientAmountOZ": "1웨지",
+          "ingredientAmountML": "1웨지"
+        }
       ],
-      "ingredientAmountOZ": ["1온스", "1/2온스", "1/2온스", "1웨지"],
-      "ingredientAmountML": ["30ml", "15ml", "15ml", "1웨지"],
       "mixing": "쉐이커에 얼음을 채운다. 모든 재료를 넣고 쉐이킹을 한다. 스트레이너를 사용하여 칵테일 글래스에 따른다."
+    },
+    {
+      "id": 10,
+      "cocktailName": "브레이브 불",
+      "ingredient": [
+        {
+          "id": 3,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1 oz",
+          "ingredientAmountML": "30ml"
+        },
+        {
+          "id": 0,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 2,
+          "ingredientType": "other",
+          "ingredientAmountOZ": "1개",
+          "ingredientAmountML": "1개"
+        }
+      ],
+      "mixing": "온더락 글라스에 얼음을 채운다. 모든 재료를 넣고 빌드한다. 체리로 장식한다."
+    },
+    {
+      "id": 11,
+      "cocktailName": "네그로니",
+      "ingredient": [
+        {
+          "id": 2,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1 oz",
+          "ingredientAmountML": "30ml"
+        },
+        {
+          "id": 5,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1 oz",
+          "ingredientAmountML": "30ml"
+        },
+        {
+          "id": 4,
+          "ingredientType": "liquor",
+          "ingredientAmountOZ": "1 oz",
+          "ingredientAmountML": "30ml"
+        },
+        {
+          "id": 5,
+          "ingredientType": "other",
+          "ingredientAmountOZ": "1개",
+          "ingredientAmountML": "1개"
+        }
+      ],
+      "mixing": "위의 재료들을 얼음을 넣어 차갑게 식힌 올드 패션드 글라스에 모두 부어준다. 이후 오렌지를 한 조각 잘라 가니쉬하면 완성. 오렌지 필로 에센스를 뿌리고 넣어주는 경우가 훨씬 많다."
+    },
+    {
+      "id": 12,
+      "cocktailName": "뉴욕",
+      "ingredient": [
+        {
+          "id": 4,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1과 1/2 oz",
+          "ingredientAmountML": "45ml"
+        },
+        {
+          "id": 5,
+          "ingredientType": "beverage",
+          "ingredientAmountOZ": "1/2 oz",
+          "ingredientAmountML": "15ml"
+        },
+        {
+          "id": 6,
+          "ingredientType": "other",
+          "ingredientAmountOZ": "1tsp",
+          "ingredientAmountML": "1tsp"
+        },
+        {
+          "id": 9,
+          "ingredientType": "base",
+          "ingredientAmountOZ": "1/2 tsp",
+          "ingredientAmountML": "1/2 tsp"
+        }
+      ],
+      "mixing": "위의 재료들을 모두 세이킹한 다음, 차갑게 얼린 마티니 글라스에 따라준다. 이후 레몬 필로 가니쉬해주면 완성."
     }
   ],
 
@@ -219,12 +462,17 @@
       {
         "id": 3,
         "name": "데낄라",
-        "includedDrinks": [2, 4]
+        "includedDrinks": [2, 4, 10]
       },
       {
         "id": 4,
-        "name": "위스키",
-        "includedDrinks": []
+        "name": "버번 위스키",
+        "includedDrinks": [12]
+      },
+      {
+        "id": 5,
+        "name": "스위트 베르무트",
+        "includedDrinks": [11]
       }
     ],
 
@@ -232,7 +480,7 @@
       {
         "id": 0,
         "name": "깔루아",
-        "includedDrinks": [0, 6, 7, 8]
+        "includedDrinks": [0, 6, 7, 8, 10]
       },
       {
         "id": 1,
@@ -248,6 +496,11 @@
         "id": 3,
         "name": "아마레또",
         "includedDrinks": [6]
+      },
+      {
+        "id": 4,
+        "name": "캄파리",
+        "includedDrinks": [11]
       }
     ],
 
@@ -280,7 +533,7 @@
       {
         "id": 5,
         "name": "라임주스",
-        "includedDrinks": [3, 4, 5]
+        "includedDrinks": [3, 4, 5, 12]
       },
       {
         "id": 6,
@@ -296,6 +549,16 @@
         "id": 8,
         "name": "우유",
         "includedDrinks": [6]
+      },
+      {
+        "id": 9,
+        "name": "그레나딘 시럽",
+        "includedDrinks": [12]
+      },
+      {
+        "id": 10,
+        "name": "심플 시럽",
+        "includedDrinks": [0]
       }
     ],
 
@@ -313,12 +576,23 @@
       {
         "id": 2,
         "name": "체리",
-        "includedDrinks": [1, 7]
+        "includedDrinks": [1, 7, 10]
       },
       {
         "id": 3,
-        "name": "오렌지필",
+        "name": "오렌지 필",
         "includedDrinks": [3]
+      },
+
+      {
+        "id": 5,
+        "name": "레몬 필",
+        "includedDrinks": [11]
+      },
+      {
+        "id": 6,
+        "name": "설탕",
+        "includedDrinks": [12]
       }
     ]
   }
